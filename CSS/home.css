@@ -1,0 +1,81 @@
+.container{
+    width: 100%;
+    height: 100%;
+    margin: auto;
+}
+.container .div-amarela{
+    width: 100%;
+    height: 120%;
+    color: #6f8eb3;
+    background-color: #ffd95a;
+    padding-top: 4%;
+}
+
+/*CORES E ESPAÇOS*/
+.container .div-amarela .color-h2{
+    color: #3f5166;
+    font-size: 22px;
+}
+.container .div-amarela .size-h2{
+    font-size: 45px;
+    margin-bottom: 20px;
+}
+.container .div-amarela .space-p{
+    margin-bottom: 35px;
+    font-size: 25px;
+}
+
+/*BENEFICIOS*/
+.container .div-amarela .beneficios{
+    width: 35%;
+    height: 25%;
+    display: flex;
+    flex-direction: row;
+    background-color: #ffffff;
+    border:1px solid #7694b7;
+    border-radius: 25px;
+    color: #7694b7;
+    margin-left: 5%;
+    padding: 20px 0px 0px 20px;
+}
+.container .div-amarela .beneficios .img-beneficios{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    height: 80%;
+    border-radius: 25px;
+    background-color: #fff9ee;
+}
+.container .div-amarela .beneficios .txt-beneficios{
+    flex-direction: column;
+    padding-left: 50px;
+}
+
+/*SOBRE*/
+.container .div-amarela .sobre{
+    width: 45%;
+    height: 50%;
+    flex-direction: column;
+    text-align: center;
+    margin-top: 8%;
+    margin-left: 10%;
+}
+.container .div-amarela .sobre .img-links{
+    width: 30%;
+    height: 30%;
+}
+
+/*IMG CELULAR*/
+.container .div-amarela #img-celular{
+    position: absolute;
+    top: 10%;
+    right: 10%;
+}
+.container .div-amarela #img-celular img{
+    max-width:800px;
+    max-height:950px;
+    width: auto;
+    height: auto;
+    border-radius: 60px;
+}
